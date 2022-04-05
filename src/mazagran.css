@@ -1,0 +1,98 @@
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+/*************************************** DESCRIPTION *****************************************************************/
+#blocGauche{
+  background-color: #ECECEC;
+  height: 100%;
+  width: 30%;
+  float: left;
+  box-shadow: 0 0 20px 10px rgb(0 0 0 /20%);
+}
+#titreEvent{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+#descrEvent{
+  font-family: 'Space Grotesk', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+#datesEvent{
+  font-family: 'Space Grotesk', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+  color: #A26FC7;
+}
+#contenuCompletActeurs{
+  font-family: 'Space Grotesk', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+#contenuCompletActeurs button{
+  margin: 5px;
+  border-radius: 80px;
+  font-family: 'Space Grotesk', sans-serif;
+  border: #FF955B 1px solid;
+  background-color: white;
+  padding: 8px;
+}
+
+/*********************************************************************************************************************/
+#blocDroit{
+  height: 100%;
+  width: 70%;
+  float: right;
+}
+#blocDroitHaut{
+  height: 80%;
+  width: 100%;
+}
+#svgGraphe{
+  height: 90%;
+  width: 100%;
+  background-image: url("data/plan.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: contain;
+}
+#blocDroitBas{
+  height: 20%;
+}
+#reglette{
+  width: 70%;
+  height: 100%;
+  margin-left: 15%;
+}
+#blocBouton{
+  margin-left: 75%;
+}
+#boutonCarte{
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #CF8EFF;
+  color: white;
+  margin: 20px;
+  font-family: 'Space Grotesk', sans-serif;
+  border: none;
+}
